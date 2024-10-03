@@ -1,0 +1,91 @@
+:root{
+    --c1: #FF0000;
+    --c2: #0663FA;
+    --c3: #47D45A;
+    --c4: #FFC000;
+}
+.goudy-bookletter-1911-regular {
+    font-family: "Goudy Bookletter 1911", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.adlam-display-regular {
+    font-family: "ADLaM Display", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+p{
+    text-align: center;
+    font-family: "ADLaM Display", system-ui;
+}
+h1{
+    text-align: center;
+    font-family: "Goudy Bookletter 1911", system-ui;
+}
+h2{
+    text-align: center;
+    font-family: "ADLaM Display", system-ui;
+}
+.flexbar{
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-around;
+    background: var(--c1);
+    width: 100vw;
+    max-height: 100vh;
+    border-radius: 5vh;
+}
+.flexbar *{
+    padding: 10px 0px 0px 0px;
+    max-width: 200px;
+    max-height: auto;
+    font-size: 34px;
+    text-align: center;
+    display: block;
+}
+.flexbackground{
+    margin-top: 20px;
+    margin-bottom:100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100000px;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.yellowbar{
+    justify-content: top;
+    display: inline-flex; flex-direction: column; width: 33vw; height: 100vh; background-color: var(--c4);
+}
+.greenbar{
+    display: inline-flex; flex-direction: column; width: 34vw; height: 100vh; background-color: var(--c3); justify-content: top;
+}
+.bluebar{
+    justify-content: top;
+    display: inline-flex; flex-direction: column; width: 33vw; height: 100vh; background-color: var(--c2);
+}
+.icon{
+    width: 50000px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 18px;
+}
+.card{
+    display: inline-block;
+    width: 20vw;
+    height: 27vh;
+    background-color: var(--c1);
+    border-radius: 18px;
+    margin: 0 auto;
+}
+.bigcard{
+    display: inline-block;
+    width: 30vw;
+    height: 37vh;
+    background-color: var(--c1);
+    border-radius: 18px;
+}
